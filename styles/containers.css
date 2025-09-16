@@ -1,0 +1,39 @@
+.formulario{
+    box-shadow: 5px 5px 10px gray;
+    padding: 1em;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 50em;
+}
+.formulario h2{
+    text-align: center;
+    color: gray;
+}
+.campoTxt{
+    width: 100%;
+    padding: 1em;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.campoData{
+    border: 1px solid gray;
+    padding: 1em;
+    border-radius: 10px;
+}
+.campoBtn{
+    width: 100%;
+    padding: 1em;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+.cadastrado{
+    padding: 1em;
+    border-radius: 10px;
+    text-align: center;
+    width: 90%;
+    max-width: 40em;
+}
+main span{
+    width: 90%;
+    max-width: 40em;
+}

@@ -1,0 +1,7 @@
+Método foreach:
+
+    foreach($array as $elemento){
+        ...Intruções...
+    }
+
+    percorrerá o array $array e a variável $elemento receberá o valor do elemento atual em cada iteração

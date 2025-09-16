@@ -1,0 +1,3 @@
+1-Para criar um objeto, faça:
+
+    $objeto = new ClasseDesejada();

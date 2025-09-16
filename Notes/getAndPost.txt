@@ -1,0 +1,14 @@
+1- O formulário possui o atributo method, que pode ter o valor get ou post
+
+    get: os dados são anexados na URL da página de resposta.
+    
+    post: os dados são enviados pelo corpo do formulário de modo transparente ao usuário da página web que realiza a 
+    submissão
+
+2- Tanto o método $_GET como o $_POST, do PHP, criam arrays que contêm todos os elementos e seus respectivos valores 
+enviados pelo formulário (name apontando para o value / name => value).
+
+3- No formulário, o atributo action recebe o valor de um caminho do arquivo que vai receber os dados, se não for 
+declarado, os dados vão para o próprio arquivo do formulário. 
+
+4- Cada dado do formulário pode ser chamado separadamente com $_GET['x'] / $_POST['x'] (x = name do input)

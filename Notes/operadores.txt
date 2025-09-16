@@ -1,0 +1,43 @@
+1- Operadores:
+
+    Aritméticos
+
+    Adição: +
+    Subtração: - 
+    Multiplicação: *
+    Divisão: /
+    Exponencial: ** 
+    Módulo: %
+
+    Atribuição
+
+    Atribuidor: =
+    Atribuidor Aritmético: x $= y ($ equivale a um operador aritmético, x se igual a x $ y)
+
+    Lógicos
+
+    And: && ou and
+    Or: || ou or
+    Not: !
+    Xor: xor 
+
+    Comparação
+
+    Igual: ==
+    Idêntico: ===
+    Diferente: <> ou !=
+    Não idêntico: !==
+    maior: >
+    menor: <
+    maior ou igual: >=
+    menor ou igual: <=
+
+    Incremento/decremento
+
+    Incremento: ++ (antes da variável já utiliza o valor incremento, depois da variável o valor será incrementado após)
+    Decremento: -- (antes da variável já utiliza o valor decremento, depois da variável o valor será decrementado após)
+
+    String
+
+    Concatenar: .
+    Concatena e atribui: .=

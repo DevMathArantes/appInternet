@@ -1,0 +1,5 @@
+1- Operador ternário 
+
+    $condicao ? $true : $false;
+
+    Se a condição $condicao for = true, a operação retornará $true, senão retornará $false

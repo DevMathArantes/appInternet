@@ -1,0 +1,107 @@
+1- Criar classe:
+
+    class NomeClasse {
+        ...
+    }
+
+2- Declarando atributo:
+
+    public $x;
+
+    atributo $x criado
+
+3- Declarando método:
+
+    public function $y(){
+        ...
+    }
+
+    método $y criado
+
+4- Para chamar uma classe X em um arquivo, utilize:
+
+    require_once "caminho de X"
+
+5- Para chamar um atributo ou método de uma variável, utilize:
+
+    $variavel-> y
+    y = atributo/método convocado
+
+6- As classes podem ser do tipo concreta, abstrata e final
+
+    6.1: 
+    As classes concretas fazem a implementação de todos os seus métodos e permitem a criação de instâncias. Esse 
+    tipo de classe não possui métodos abstratos e, se forem utilizadas em um cenário como esse, certamente serão 
+    subclasses de uma classe abstrata. As classes concretas são as mais comuns, e utilizam a seguinte sintaxe:
+
+        class NomeClasse {
+            ...
+        }
+
+    6.2:
+    As classes abstratas são desenvolvidas para fazer a representação de entidades e de conceitos abstratos, e são 
+    sempre superclasses que não possuem instâncias. Elas definem um modelo de funcionalidade de forma genérica, 
+    como uma implementação incompleta, que é compartilhada por um grupo de subclasses. Cada subclasse deverá 
+    complementar a funcionalidade da classe abstrata, adicionando um comportamento específico a ela. Para criar uma
+    classe abstrata, utiliza-se a seguinte sintaxe:
+
+        abstract class NomeClasse {
+            ...
+        }
+
+    6.3:
+    As classes do tipo final não permitem que outras classes realizem herança delas, isto é, elas não podem ser 
+    herdadas, sendo, portanto, a classe final de utilização da instância. Para criar uma classe final, utiliza-se 
+    a seguinte sintaxe:
+
+        final class NomeClasse {
+            ...
+        }
+7- Método contrutor
+
+    public $X1;
+    public $X2;
+
+    public function _construct($X1 = '', $X2 = ''...){
+            $this->X1 = $X1;
+            $this->X2 = $X2;
+            ...
+    }
+
+    Quando é feita a chamada do construtor, é possível fazer a instância da classe no mesmo momento em que é feita 
+    a passagem dos valores de todos os atributos da classe.
+
+8- Modificadores de acesso
+
+    Private (privado): é o modificador que define o tipo de acesso mais restrito. Ele indica que o atributo e/ou o 
+    método da classe pode ser acessado apenas pela sua própria classe, ou seja, nenhuma outra parte do código, nem 
+    mesmo as suas subclasses, podem acessá-los. 
+    
+    Protected (protegido): é o modificador que indica que o atributo 
+    e/ou método da classe pode ser acessado apenas pela sua própria classe e pelas suas subclasses, que são aquelas 
+    que herdam da classe. 
+    
+    Public (público): é o modificador que define o tipo de acesso mais liberado possível. 
+    Ele indica que o atributo e/ou o método da classe pode ser acessado por qualquer classe existente e de qualquer 
+    outro ponto do código do programa. Os membros que são definidos como públicos em uma classe definem a interface 
+    que ela terá com as demais classes. 
+
+    Sintaxe: modificador $x (acesso de $x = modificador escolhido)
+
+9- Métodos get e set para acessar variáveis de um objeto
+
+    9.1- Retorna o valor de X:
+
+        public function getX(){
+            return $this->X;
+        }
+     
+    9.2- Altera o valor de X:
+
+        public function setX($X){
+            $this->X = $X;
+        }
+
+10- A herança de uma classe pode ser feita por: class X extends Y (classe X herdou Y)
+    
+11- Polimorfismo: reescrever métodos para terem diferentes comportamentos em classes pais e filhas
